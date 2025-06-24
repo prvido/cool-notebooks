@@ -21,5 +21,5 @@ To run these notebooks locally:
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/python-notebooks-portfolio.git
-   cd python-notebooks-portfolio
+   git clone https://github.com/prvido/cool-notebooks.git
+   cd cool-notebooks
