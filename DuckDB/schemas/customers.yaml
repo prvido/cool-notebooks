@@ -1,0 +1,28 @@
+table: customers
+description: Tabela para armazenar informações sobre os clientes da empresa ACME
+schema:
+  - field: customer_id
+    type: STRING
+    description: Identificador único do cliente
+  - field: customer_name
+    type: STRING
+    description: Nome do cliente
+  - field: customer_role
+    type: STRING
+    description: Papel do cliente (ex: Hero, Villain, Sidekick, Troublemaker)
+sample:
+  - customer_id: CUST0001
+    customer_name: Whiskers McZoom
+    customer_role: Hero
+  - customer_id: CUST0002
+    customer_name: Fizzles Quack
+    customer_role: Troublemaker
+  - customer_id: CUST0003
+    customer_name: Slick Coyote
+    customer_role: Villain
+  - customer_id: CUST0004
+    customer_name: Elmo Fuddle
+    customer_role: Villain
+  - customer_id: CUST0005
+    customer_name: Hammy Wiggle
+    customer_role: Sidekick

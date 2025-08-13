@@ -1,0 +1,18 @@
+table: products
+description: Tabela para armazenar informações sobre os produtos vendidos pela empresa ACME
+schema:
+  - field: product_id
+    type: STRING
+    description: Identificador único do produto
+  - field: product_name
+    type: STRING
+    description: Nome do produto
+sample:
+  - product_id: PRD0001
+    product_name: Rocket Skates
+  - product_id: PRD0002
+    product_name: Dehydrated Boulder
+  - product_id: PRD0003
+    product_name: Earthquake Pills
+  - product_id: PRD0004
+    product_name: Instant Hole

@@ -1,0 +1,60 @@
+table: sales
+description: Tabela para armazenar informações sobre as vendas realizadas pela empresa ACME
+schema:
+  - field: sale_id
+    type: STRING
+    description: Identificador único da venda
+  - field: sale_date
+    type: DATE
+    description: Data da venda
+  - field: product_id
+    type: STRING
+    description: Identificador do produto vendido
+  - field: customer_id
+    type: STRING
+    description: Identificador do cliente que realizou a compra
+  - field: unit_price
+    type: DOUBLE
+    description: Preço unitário do produto na venda
+  - field: quantity
+    type: INTEGER
+    description: Quantidade de produtos vendidos
+  - field: amount
+    type: DOUBLE
+    description: Valor total da venda
+sample:
+  - sale_id: SAL00001
+    sale_date: 2025-04-23
+    product_id: PRD0006
+    customer_id: CUST0048
+    unit_price: 21.13
+    quantity: 6
+    amount: 126.78
+  - sale_id: SAL00002
+    sale_date: 2025-04-01
+    product_id: PRD0001
+    customer_id: CUST0041
+    unit_price: 30.26
+    quantity: 6
+    amount: 181.56
+  - sale_id: SAL00003
+    sale_date: 2025-05-31
+    product_id: PRD0010
+    customer_id: CUST0001
+    unit_price: 13.35
+    quantity: 4
+    amount: 53.4
+  - sale_id: SAL00004
+    sale_date: 2025-03-06
+    product_id: PRD0003
+    customer_id: CUST0022
+    unit_price: 54.63
+    quantity: 8
+    amount: 437.04
+  - sale_id: SAL00005
+    sale_date: 2025-05-07
+    product_id: PRD0001
+    customer_id: CUST0039
+    unit_price: 12.85
+    quantity: 5
+    amount: 64.25
